@@ -3,6 +3,6 @@
 <label>Code:</label>
 <%= text_field_tag :'coupon[coupon_code]' %><br>
 <label>Store:</label>
-<%= text_field_tag :'coupon[store]' %><br>
+<%= text_field_tag "coupon[store]".to_sym %><br>
 <%= submit_tag "Submit Coupon" %>
 <% end %>
